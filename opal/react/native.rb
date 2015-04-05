@@ -10,6 +10,14 @@ module React
 end
 
 module React
+  class StyleSheet
+    def self.new(hash)
+      Native(`React.StyleSheet.create(#{hash.to_n})`)
+    end
+  end
+end
+
+module React
   class AppRegistry
     def self.register_component(klass)
       ctor = React::ComponentFactory.native_component_class(klass)
