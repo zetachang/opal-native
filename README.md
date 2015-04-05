@@ -12,8 +12,8 @@ To provide a Ruby-friendly tool chain (this doesn't require node / npm) and wrap
 
 ## Dependency
 
-* [Opal Ruby](http://opalrb.org) is used as Ruby transpiler to transpile your Ruby code intro JavaScript.
-* [react.rb](https://github.com/zetachang/react.rb) is a React.js providing basic DSL support in Ruby over the original JS API.
+* [Opal Ruby](http://opalrb.org) is used as Ruby transpiler to transpile your Ruby code into JavaScript.
+* [react.rb](https://github.com/zetachang/react.rb) is a React.js wrapper providing basic DSL support in Ruby.
 
 ## Usage
 
@@ -28,7 +28,7 @@ Note: Switch port other than 8081 is not allowed currently.
 
 ### Debug
 
-1. `Ctrl + Command + Z` to toggle menu, and select "Enable debugging".
+1. `Ctrl + Command + Z` to toggle dev menu, and select "Enable debugging".
 2. Open `http://localhost:8081/` in  Chrome or Safari to debug in inspector (haven't test in Firefox yet)
 3. For details, see [Debugging Tutorial of React Native](http://facebook.github.io/react-native/docs/debugging.html)
 
