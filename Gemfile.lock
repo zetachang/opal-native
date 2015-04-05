@@ -1,5 +1,7 @@
-PATH
-  remote: ~/Works/ReactRb
+GIT
+  remote: git://github.com/zetachang/react.rb.git
+  revision: 454412a9e63cb14e303ba6d03bbca385aeb2b980
+  branch: react-native-support
   specs:
     react.rb (0.2.0)
       opal (~> 0.6.0)
