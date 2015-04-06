@@ -20,7 +20,7 @@ To provide a Ruby-friendly tool chain (this doesn't require node / npm) and wrap
 1. Clone or download this project
 2. `bundle install`
 3. `bundle exec pod install` to install iOS dependency
-4. `open SampleApp.xcworkspace` to launch Xcode
+4. `open SampleApp.xcworkspace` to launch Xcode (xc**Workspace** not xcode*Proj*!)
 5. `bundle exec thin -R config.ru start -p 8081` to start packaging server
 6. Build & Run
 
