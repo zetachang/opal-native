@@ -29,6 +29,11 @@ class App
         color: '#333333',
         marginBottom: 5,
       },
+      image: {
+        width: 100,
+        height: 100,
+        borderWidth: 1
+      }
     })
     
     present(View, {style: styles.container}) do
