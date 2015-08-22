@@ -2,6 +2,7 @@ module React
   module NativeComponent
     View = `React.View`
     Text = `React.Text`
+    Image = `React.Image`
     
     def self.included(base)
       base.include(React::Component)

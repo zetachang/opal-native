@@ -36,6 +36,7 @@ class App
        present(Text, {style: styles.instructions}) do
          "Press Cmd+R to reload,\nCmd+Control+Z for dev menu"
        end
+       present(Image, {style: styles.image, source: {uri: 'http://facebook.github.io/react/img/logo_og.png'}.to_n})
     end
   end
 end
