@@ -1,11 +1,12 @@
 GIT
-  remote: git://github.com/zetachang/react.rb.git
-  revision: 454412a9e63cb14e303ba6d03bbca385aeb2b980
+  remote: git://github.com/rainchen/react.rb.git
+  revision: 86dd78f55419286f4bf10ea23e6bf1960fa0de07
+  ref: 86dd78f55419286f4bf10ea23e6bf1960fa0de07
   branch: react-native-support
   specs:
     react.rb (0.2.0)
-      opal (~> 0.6.0)
-      opal-activesupport (~> 0)
+      opal (~> 0.7.0)
+      opal-activesupport
       sprockets-es6 (~> 0)
       therubyracer (~> 0)
 
@@ -19,7 +20,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    babel-source (5.0.8)
+    babel-source (5.8.19)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
@@ -56,37 +57,39 @@ GEM
       eventmachine (>= 0.12.9)
     escape (0.0.4)
     eventmachine (1.0.7)
-    execjs (2.4.0)
+    execjs (2.6.0)
     fuzzy_match (2.0.4)
+    hike (1.2.3)
     i18n (0.7.0)
     json (1.8.2)
-    libv8 (3.16.14.7)
+    libv8 (3.16.14.11)
     minitest (5.5.1)
     molinillo (0.2.3)
     nap (0.8.0)
     netrc (0.7.8)
-    opal (0.6.3)
-      source_map
-      sprockets
+    opal (0.7.1)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (>= 2.2.3, < 4.0.0)
+      tilt (~> 1.4)
     opal-activesupport (0.1.0)
       opal (>= 0.5.0, < 1.0.0)
     open4 (1.3.4)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
-    ref (1.0.5)
+    ref (2.0.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    source_map (3.0.1)
-      json
-    sprockets (3.0.0.rc.1)
+    sourcemap (0.1.1)
+    sprockets (3.3.3)
       rack (~> 1.0)
-    sprockets-es6 (0.6.0)
+    sprockets-es6 (0.7.0)
       babel-transpiler
-      sprockets (~> 3.0.0.beta)
-    therubyracer (0.12.1)
+      sprockets (>= 3.0.0)
+    therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
     thin (1.6.3)
@@ -94,7 +97,7 @@ GEM
       eventmachine (~> 1.0)
       rack (~> 1.0)
     thread_safe (0.3.5)
-    tilt (2.0.1)
+    tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     websocket-rack (0.4.0)
