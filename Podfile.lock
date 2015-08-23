@@ -1,5 +1,7 @@
 PODS:
   - React/Core (0.2.1)
+  - React/RCTImage (0.2.1):
+    - React/Core
   - React/RCTText (0.2.1):
     - React/Core
   - React/RCTWebSocketDebugger (0.2.1):
@@ -7,6 +9,7 @@ PODS:
 
 DEPENDENCIES:
   - React/Core
+  - React/RCTImage
   - React/RCTText
   - React/RCTWebSocketDebugger
 
