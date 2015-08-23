@@ -1,4 +1,5 @@
 require "opal"
+require "opal/version"
 require "react"
 require "react/native"
 
@@ -7,7 +8,7 @@ class App
   include React::NativeComponent
     
   before_mount do
-    puts "Hello! this is #{RUBY_ENGINE} #{RUBY_ENGINE_VERSION}"
+    puts "This app is coded using ReactNative(#{React::VERSION}) with Opal(#{Opal::VERSION}) on Ruby(#{RUBY_VERSION})"
     # `console.log(Opal)` # demo for how to access the `Opal` stuff for debugging
   end
   
@@ -38,7 +39,7 @@ class App
     
     present(View, {style: styles.container}) do
        present(Text, {style: styles.welcome}) { "Welcome to React Native!💖" }
-       present(Text, {style: styles.instructions}) { "This app is coded using Opal(#{RUBY_ENGINE_VERSION}) on Ruby(#{RUBY_VERSION})" }
+       present(Text, {style: styles.instructions}) { "This app is coded using ReactNative(#{React::VERSION}) with Opal(#{Opal::VERSION}) on Ruby(#{RUBY_VERSION})" }
        present(Text, {style: styles.instructions}) { "To get started, edit app/application.rb" }
        present(Text, {style: styles.instructions}) do
          "Press Cmd+R to reload,\nCmd+Control+Z for dev menu"
